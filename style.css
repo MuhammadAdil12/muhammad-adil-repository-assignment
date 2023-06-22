@@ -1,0 +1,49 @@
+.container{
+    height: 100vh;
+    border: 1px green solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .red, .blue, .green, .black, .yellow{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    .red{
+    background-color: red;
+    order: 2;
+    }
+    
+    
+    .blue{
+    background-color: blue;
+    align-self: flex-end;
+    order: 1;
+    }
+    
+    
+    .green{
+    background-color: rgb(4, 105, 4);
+    order: -1;
+    }
+    
+    
+    .black{
+    background-color: black;
+    align-self:flex-start;
+    color: aliceblue;
+    }
+    
+    
+    .yellow{
+    background-color: yellow;
+    color:rgb(204, 104, 70);
+    border-radius: 50px;
+    }
+    
